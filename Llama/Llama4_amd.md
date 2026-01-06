@@ -45,8 +45,8 @@ vllm serve $MODEL \
   -tp $TP \
   --max-num-seqs 64 \
   --no-enable-prefix-caching \
-  --max_num_batched_tokens=16384 \
-  --max_model_len 32000 &
+  --max-num-batched-tokens=16384 \
+  --max-model-len 32000 &
 ``` 
 
 ### 3. Runing Inference using benchmark script
