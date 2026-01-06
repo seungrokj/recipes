@@ -48,7 +48,7 @@ vllm serve $MODEL \
   --max-model-len 32000 &
 ``` 
 
-### 3. Runing Inference using benchmark script
+### 3. Running Inference using benchmark script
 
 Let the Ll4 Scout model to describe the following two images.
 ![first image](./images/rabbit.jpg)
