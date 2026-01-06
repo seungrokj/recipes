@@ -32,7 +32,6 @@ To use Llama 4 Scout and Maverick models, you must first need to gain access to 
 ```bash
 alias drun='sudo docker run -it --network=host --device=/dev/kfd --device=/dev/dri --group-add=video --ipc=host --cap-add=SYS_PTRACE --security-opt seccomp=unconfined --shm-size 32G -v /data:/data -v $HOME:/myhome -w /myhome'
 drun rocm/vllm-dev:nightly
-``` 
 
 ### 2. Start vLLM online server (run in background)
 
