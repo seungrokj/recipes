@@ -16,7 +16,6 @@ uv pip install -U vllm --torch-backend auto
 ```bash
 alias drun='sudo docker run -it --network=host --device=/dev/kfd --device=/dev/dri --group-add=video --ipc=host --cap-add=SYS_PTRACE --security-opt seccomp=unconfined --shm-size 32G -v /data:/data -v $HOME:/myhome -w /myhome'
 drun rocm/vllm-dev:nightly
-``` 
 
 ## Running Ernie4.5-VL
 
